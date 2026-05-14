@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Navalha Prime Barber em Cascavel - PR. Cortes masculinos, barba completa, degradê navalhado e agendamento pelo WhatsApp.">
+  <title>Navalha Prime Barber | Barbearia em Cascavel - PR</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Anton&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="grain" aria-hidden="true"></div>
+
+  <header class="site-header" data-header>
+    <a class="brand" href="#top" aria-label="Navalha Prime Barber">
+      <span class="brand-mark">NP</span>
+      <span>
+        <strong>Navalha Prime</strong>
+        <small>Barber / Cascavel</small>
+      </span>
+    </a>
+
+    <nav class="desktop-nav" aria-label="Navegação principal">
+      <a href="#servicos">Serviços</a>
+      <a href="#destaque">Corte + Barba</a>
+      <a href="#experiencia">Experiência</a>
+      <a href="#localizacao">Localização</a>
+    </nav>
+
+    <div class="header-actions">
+      <a class="btn btn-small btn-primary magnetic" data-whatsapp="geral" href="#">Agendar horário</a>
+      <button class="menu-toggle" type="button" aria-label="Abrir menu" aria-expanded="false" data-menu-toggle>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+
+    <nav class="mobile-nav" aria-label="Menu mobile" data-mobile-nav>
+      <a href="#servicos">Serviços</a>
+      <a href="#destaque">Corte + Barba</a>
+      <a href="#funciona">Como funciona</a>
+      <a href="#localizacao">Localização</a>
+      <a class="btn btn-primary" data-whatsapp="geral" href="#">Chamar no WhatsApp</a>
+    </nav>
+  </header>
+
+  <main id="top">
+    <section class="hero section-dark">
+      <div class="hero-copy">
+        <p class="eyebrow reveal">Barbearia premium em Cascavel - PR</p>
+        <h1 class="hero-title reveal">Visual alinhado. Horário marcado.</h1>
+        <p class="hero-text reveal">Corte, barba e degradê com acabamento de barbearia premium. Chame no WhatsApp e confirme seu horário em poucos segundos.</p>
+        <div class="hero-actions reveal">
+          <a class="btn btn-primary btn-large magnetic" data-whatsapp="geral" href="#">Agendar pelo WhatsApp</a>
+          <a class="btn btn-secondary btn-large" href="#servicos">Ver serviços</a>
+        </div>
+        <div class="hero-proof reveal" aria-label="Informações rápidas">
+          <span><strong>8</strong> serviços no catálogo</span>
+          <span><strong>9h-20h</strong> seg. a sábado</span>
+          <span><strong>Centro</strong> Cascavel</span>
+        </div>
+      </div>
+
+      <div class="hero-visual reveal">
+        <div class="hero-number">45</div>
+        <figure class="barber-frame" data-parallax>
+          <img src="https://images.unsplash.com/photo-1621605815971-fbc98d665033?auto=format&fit=crop&w=1200&q=82" alt="Barbeiro finalizando corte masculino em cadeira de barbearia">
+        </figure>
+        <div class="prime-seal" aria-hidden="true">
+          <span>Prime</span>
+          <strong>NP</strong>
+          <small>Barber Club</small>
+        </div>
+        <div class="hero-signature" aria-hidden="true">precisão / acabamento / respeito ao horário</div>
+      </div>
+    </section>
+
+    <section class="services-section" id="servicos">
+      <div class="section-head reveal">
+        <div>
+          <p class="eyebrow">Cardápio de bancada</p>
+          <h2>Serviços com preço claro e agendamento direto.</h2>
+        </div>
+        <p>Filtre, escolha e envie a mensagem com o serviço já preenchido. O atendimento continua pelo WhatsApp da barbearia.</p>
+      </div>
+
+      <div class="catalog-toolbar reveal" aria-label="Filtros de serviços">
+        <div class="category-pills" data-categories></div>
+        <label class="search-wrap">
+          <span class="sr-only">Buscar serviço</span>
+          <input type="search" data-search placeholder="Buscar corte, barba, hidratação...">
+        </label>
+      </div>
+
+      <div class="service-grid" data-service-grid aria-live="polite">
+        <article class="service-card">
+          <div class="service-meta">
+            <span class="service-category">Combo</span>
+            <span class="badge">Destaque</span>
+          </div>
+          <span class="service-index">01</span>
+          <h3>Corte + barba</h3>
+          <p>O combo mais pedido: cabelo no ponto, barba feita e finalização pronta para sair.</p>
+          <div class="service-price">R$ 70,00</div>
+          <a class="btn btn-secondary" href="https://wa.me/5545999999999?text=Ol%C3%A1%2C%20vim%20pelo%20site%20da%20Navalha%20Prime%20Barber%20e%20quero%20agendar%20Corte%20%2B%20barba.%20Pode%20me%20passar%20os%20hor%C3%A1rios%20dispon%C3%ADveis%3F" target="_blank" rel="noopener">Agendar este serviço</a>
+        </article>
+      </div>
+      <p class="empty-state" data-empty-state hidden>Nenhum serviço encontrado com esse filtro.</p>
+    </section>
+
+    <section class="feature-service section-dark" id="destaque">
+      <div class="feature-image reveal" data-parallax>
+        <img src="https://images.unsplash.com/photo-1585747860715-2ba37e788b70?auto=format&fit=crop&w=1200&q=82" alt="Barbeiro aparando barba com acabamento preciso">
+      </div>
+      <div class="feature-copy reveal">
+        <p class="eyebrow">Mais pedido da casa</p>
+        <h2>Corte + Barba</h2>
+        <p class="feature-lead">Combo para sair pronto: corte alinhado, barba feita com acabamento e revisão no espelho antes de levantar da cadeira.</p>
+        <div class="feature-price">
+          <span>Combo premium</span>
+          <strong>R$ 70,00</strong>
+        </div>
+        <ul class="feature-list">
+          <li>Degradê limpo e contorno ajustado</li>
+          <li>Barba desenhada com toalha quente</li>
+          <li>Finalização com produto certo para o fio</li>
+        </ul>
+        <a class="btn btn-primary btn-large magnetic" data-feature-book href="#">Agendar corte + barba</a>
+      </div>
+    </section>
+
+    <section class="experience-section" id="experiencia">
+      <div class="section-head reveal">
+        <div>
+          <p class="eyebrow">Dentro da barbearia</p>
+          <h2>Atendimento de cadeira marcada, acabamento conferido no detalhe.</h2>
+        </div>
+      </div>
+
+      <div class="experience-grid">
+        <article class="experience-item reveal">
+          <span>01</span>
+          <h3>Horário respeitado</h3>
+          <p>Você chama, combina um horário real e chega para sentar na cadeira sem depender de encaixe.</p>
+        </article>
+        <article class="experience-item reveal">
+          <span>02</span>
+          <h3>Ambiente de presença</h3>
+          <p>Luz baixa, couro, madeira escura e bancada organizada para o atendimento não parecer corrido.</p>
+        </article>
+        <article class="experience-item reveal">
+          <span>03</span>
+          <h3>Mão experiente</h3>
+          <p>Corte conduzido com leitura de rosto, caimento do fio e acabamento que segura depois do primeiro banho.</p>
+        </article>
+        <article class="experience-item reveal">
+          <span>04</span>
+          <h3>Final sem pressa</h3>
+          <p>Contorno revisado, nuca limpa e produto aplicado na medida. Você sai pronto para o compromisso.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="steps-section" id="funciona">
+      <div class="section-head reveal">
+        <div>
+          <p class="eyebrow">Como funciona</p>
+          <h2>Três passos e seu horário fica encaminhado.</h2>
+        </div>
+      </div>
+
+      <div class="steps">
+        <article class="step reveal">
+          <strong>1</strong>
+          <h3>Escolha o serviço</h3>
+          <p>Veja preço, categoria e o que está incluso antes de chamar.</p>
+        </article>
+        <article class="step reveal">
+          <strong>2</strong>
+          <h3>Chame no WhatsApp</h3>
+          <p>A mensagem já abre com o serviço escolhido para agilizar.</p>
+        </article>
+        <article class="step reveal">
+          <strong>3</strong>
+          <h3>Confirme o horário</h3>
+          <p>A barbearia responde com os horários livres do dia.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="location-section section-dark" id="localizacao">
+      <div class="location-card reveal">
+        <p class="eyebrow">Onde estamos</p>
+        <h2>Centro de Cascavel, perto da rotina de quem não tem tempo para esperar.</h2>
+        <div class="info-list">
+          <p><span>Endereço</span> Rua Paraná, 1234 - Centro, Cascavel - PR</p>
+          <p><span>Horário</span> Segunda a sábado, das 9h às 20h</p>
+          <p><span>Instagram</span> @navalhaprimebarber</p>
+        </div>
+        <div class="location-actions">
+          <a class="btn btn-primary magnetic" href="https://www.google.com/maps/search/?api=1&query=Rua%20Paran%C3%A1%201234%20Centro%20Cascavel%20PR" target="_blank" rel="noopener">Abrir rota</a>
+          <a class="btn btn-secondary" data-whatsapp="geral" href="#">Confirmar atendimento</a>
+        </div>
+      </div>
+      <div class="map-panel reveal" aria-label="Mapa ilustrativo da região central">
+        <div class="map-grid"></div>
+        <div class="map-pin">
+          <strong>NP</strong>
+          <span>Rua Paraná</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="final-cta">
+      <div class="final-copy reveal">
+        <p class="eyebrow">Agenda aberta</p>
+        <h2>Seu próximo corte já pode ficar agendado.</h2>
+        <p>Chame agora, consulte os horários livres e saia com o visual alinhado ainda esta semana.</p>
+      </div>
+      <a class="btn btn-primary btn-large magnetic reveal" data-whatsapp="geral" href="#">Agendar no WhatsApp</a>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div>
+      <strong>Navalha Prime Barber</strong>
+      <p>Rua Paraná, 1234 - Centro, Cascavel - PR</p>
+    </div>
+    <div>
+      <p>WhatsApp: (45) 99999-9999</p>
+      <p>Instagram: @navalhaprimebarber</p>
+    </div>
+  </footer>
+
+  <a class="floating-whatsapp" data-whatsapp="geral" href="#" aria-label="Agendar pelo WhatsApp">WhatsApp</a>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js" defer></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js" defer></script>
+  <script src="script.js" defer></script>
+</body>
+</html>
